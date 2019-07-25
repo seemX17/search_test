@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Search Test</title>
+    <link rel="stylesheet" href="lib/Bootstrap/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="Css/style.css" />
+</head>
+
+<body>
+    <div class="search-view">
+        <div class="container">
+            <div class="search-filter-wrap">
+                <div class="row">
+                    <div class="search-filter-holder clearfix">
+                        <div class="filter-input filter-div col-sm-4">
+                            <input id="first-name" type="text" placeholder="Enter first name" />
+                        </div>
+                        <div class="filter-input filter-div col-sm-4">
+                            <input id="last-name" type="text" placeholder="Enter last name" />
+                        </div>
+                        <div class="filter-button filter-div col-sm-4">
+                            <button id="search-btn">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-results-wrap">
+                <h2 class="search-tag hide padding">Search Results</h2>
+                <div class="result-container clearfix">
+                </div>
+            </div>
+        </div>
+        <div class="preloader">
+            <div class="preloader_inner">100%</div>
+        </div>
+    </div>
+    <script src="lib/Jquery/jquery.min.js"></script>
+    <script src="JS/functions.js">
+    </script>
+</body>
+
+</html>
